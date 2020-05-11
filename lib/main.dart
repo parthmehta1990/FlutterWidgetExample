@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget_app/WrapWidget.dart';
 
 import 'BottomNavigationWidget/BottomNavigation.dart';
+import 'Future/FutureBuilderJson.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: BottomNavigation()
+      home: FutureBuilderJson()
+      //BottomNavigation()
       //MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
