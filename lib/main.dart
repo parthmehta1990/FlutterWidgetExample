@@ -4,6 +4,7 @@ import 'package:flutter_widget_app/WrapWidget.dart';
 
 import 'BottomNavigationWidget/BottomNavigation.dart';
 import 'Future/FutureBuilderJson.dart';
+import 'PageView/AnimatedIconExample.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: FutureBuilderJson()
+      home: AnimatedIconExample()
+      //FutureBuilderJson()
       //BottomNavigation()
       //MyHomePage(title: 'Flutter Demo Home Page'),
     );
