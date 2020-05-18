@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget_app/WrapWidget.dart';
 
 import 'BottomNavigationWidget/BottomNavigation.dart';
+import 'ClipRect/ClipReacWidget.dart';
 import 'Future/FutureBuilderJson.dart';
 import 'PageView/AnimatedIconExample.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AnimatedIconExample()
+      home: ClipReacWidget()
+      //AnimatedIconExample()
       //FutureBuilderJson()
       //BottomNavigation()
       //MyHomePage(title: 'Flutter Demo Home Page'),
