@@ -6,6 +6,7 @@ import 'package:flutter_widget_app/WrapWidget.dart';
 import 'BottomNavigationWidget/BottomNavigation.dart';
 import 'ClipRect/ClipReacWidget.dart';
 import 'Future/FutureBuilderJson.dart';
+import 'IconButtonWidget/ICButton.dart';
 import 'PageView/AnimatedIconExample.dart';
 
 void main() => runApp(MyApp());
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ToolTipWidget()
+      home: ICButton()
+      //ToolTipWidget()
       //ClipReacWidget()
       //AnimatedIconExample()
       //FutureBuilderJson()
