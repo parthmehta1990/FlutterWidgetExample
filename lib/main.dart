@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_widget_app/Tooltip/ToolTipWidget.dart';
 import 'package:flutter_widget_app/WrapWidget.dart';
 
 import 'BottomNavigationWidget/BottomNavigation.dart';
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ClipReacWidget()
+      home: ToolTipWidget()
+      //ClipReacWidget()
       //AnimatedIconExample()
       //FutureBuilderJson()
       //BottomNavigation()

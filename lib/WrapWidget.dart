@@ -6,6 +6,7 @@ class WrapWidget extends StatelessWidget {
     return Scaffold(
       body: Container(
         child: Wrap(
+
           alignment: WrapAlignment.spaceBetween,
           direction: Axis.horizontal,
           children: <Widget>[
