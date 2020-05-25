@@ -17,6 +17,7 @@ class _ClipReacWidgetState extends State<ClipReacWidget> {
             child: Column(
           children: <Widget>[
             ClipOval(
+
               child: Image.network(
                 'https://i.ibb.co/1vXpqVs/flutter-logo.jpg',
               ),

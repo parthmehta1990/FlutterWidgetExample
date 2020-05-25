@@ -24,6 +24,7 @@ class FlatButtonExample extends StatelessWidget {
                 //Code to execute when Floating Action Button is clicked
                 //...
               },
+
             ),
           ),
         ],
