@@ -20,6 +20,7 @@ class SizedBoxWidgetEx extends StatelessWidget {
                           SizedBox(
                             width: 220.00,
                             height: 220.00,
+                            //To give bg color to size box we have to use BoxDecoration widget of Decoration Box or Container as shown in commented code
                             child: const DecoratedBox(
                               decoration: const BoxDecoration(
                                 color: Colors.lightBlueAccent,
