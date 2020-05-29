@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget_app/AbsorbPointerEx/AbsorbPointerEx.dart';
 import 'package:flutter_widget_app/FittedBoxEx/FittedBoxSample.dart';
 import 'package:flutter_widget_app/LayoutBuilderEx/LayoutBuilderEx.dart';
+import 'package:flutter_widget_app/PositioningWidgets/CenterWidgetEx.dart';
+import 'package:flutter_widget_app/PositioningWidgets/ContainerEx.dart';
+import 'package:flutter_widget_app/PositioningWidgets/SizedBoxWidgetEx.dart';
 import 'package:flutter_widget_app/RaisedButtonEx/RaisedBtn.dart';
 import 'package:flutter_widget_app/Tooltip/ToolTipWidget.dart';
 import 'package:flutter_widget_app/WrapWidget.dart';
@@ -13,6 +16,8 @@ import 'Future/FutureBuilderJson.dart';
 import 'IconButtonWidget/FlatButtonExample.dart';
 import 'IconButtonWidget/ICButton.dart';
 import 'PageView/AnimatedIconExample.dart';
+import 'PositioningWidgets/AlignExample.dart';
+import 'PositioningWidgets/PositionWidgetEx.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,7 +31,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:AbsorbPointerEx()
+      home:SizedBoxWidgetEx()
+      //PositionWidgetEx()
+      //CenterWidgetEx()
+      //ContainerEx()
+      //AlignExample()
+      //AbsorbPointerEx()
       //LayoutBuilderEx()
       //FittedBoxSample()
       //RaisedBtn()
