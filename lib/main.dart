@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_widget_app/AbsorbPointerEx/AbsorbPointerEx.dart';
 import 'package:flutter_widget_app/FittedBoxEx/FittedBoxSample.dart';
 import 'package:flutter_widget_app/LayoutBuilderEx/LayoutBuilderEx.dart';
 import 'package:flutter_widget_app/RaisedButtonEx/RaisedBtn.dart';
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:LayoutBuilderEx()
+      home:AbsorbPointerEx()
+      //LayoutBuilderEx()
       //FittedBoxSample()
       //RaisedBtn()
       //FlatButtonExample()
