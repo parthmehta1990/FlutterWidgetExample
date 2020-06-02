@@ -15,6 +15,7 @@ import 'AspectRatioEx/AspectRatioEx.dart';
 import 'BottomNavigationWidget/BottomNavigation.dart';
 import 'Boxes/LimitedBoxEx.dart';
 import 'Boxes/OverFlowBoxEx.dart';
+import 'Boxes/SizedOverFlowBoxEx.dart';
 import 'ClipRect/ClipReacWidget.dart';
 import 'FlexibleEx/FliexibleEx.dart';
 import 'Future/FutureBuilderJson.dart';
@@ -36,7 +37,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:OverFlowBoxEx()
+      home:SizedOverFlowBoxEx()
+      //OverFlowBoxEx()
       //LimitedBoxEx()
       //AspectRatioEx()
       //SpacerEx()
