@@ -7,6 +7,7 @@ import 'package:flutter_widget_app/PositioningWidgets/CenterWidgetEx.dart';
 import 'package:flutter_widget_app/PositioningWidgets/ContainerEx.dart';
 import 'package:flutter_widget_app/PositioningWidgets/SizedBoxWidgetEx.dart';
 import 'package:flutter_widget_app/RaisedButtonEx/RaisedBtn.dart';
+import 'package:flutter_widget_app/SpacerEx/SpacerEx.dart';
 import 'package:flutter_widget_app/Tooltip/ToolTipWidget.dart';
 import 'package:flutter_widget_app/WrapWidget.dart';
 
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:FlexibleEx()
+      home:SpacerEx()
+      //FlexibleEx()
       //SizedBoxWidgetEx()
       //PositionWidgetEx()
       //CenterWidgetEx()
