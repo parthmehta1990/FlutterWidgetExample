@@ -12,6 +12,7 @@ import 'package:flutter_widget_app/WrapWidget.dart';
 
 import 'BottomNavigationWidget/BottomNavigation.dart';
 import 'ClipRect/ClipReacWidget.dart';
+import 'FlexibleEx/FliexibleEx.dart';
 import 'Future/FutureBuilderJson.dart';
 import 'IconButtonWidget/FlatButtonExample.dart';
 import 'IconButtonWidget/ICButton.dart';
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:SizedBoxWidgetEx()
+      home:FlexibleEx()
+      //SizedBoxWidgetEx()
       //PositionWidgetEx()
       //CenterWidgetEx()
       //ContainerEx()
