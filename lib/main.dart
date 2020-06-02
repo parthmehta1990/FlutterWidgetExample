@@ -11,6 +11,7 @@ import 'package:flutter_widget_app/SpacerEx/SpacerEx.dart';
 import 'package:flutter_widget_app/Tooltip/ToolTipWidget.dart';
 import 'package:flutter_widget_app/WrapWidget.dart';
 
+import 'AspectRatioEx/AspectRatioEx.dart';
 import 'BottomNavigationWidget/BottomNavigation.dart';
 import 'ClipRect/ClipReacWidget.dart';
 import 'FlexibleEx/FliexibleEx.dart';
@@ -33,7 +34,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:SpacerEx()
+      home:AspectRatioEx()
+      //SpacerEx()
       //FlexibleEx()
       //SizedBoxWidgetEx()
       //PositionWidgetEx()
