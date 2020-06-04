@@ -19,3 +19,6 @@ class LimitedBoxEx extends StatelessWidget {
     ));
   }
 }
+/*
+* Limited box apply its constraints to the unbounded parent widget and has no effect on bounded widget like container
+* */
