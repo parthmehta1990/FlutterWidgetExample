@@ -22,6 +22,7 @@ import 'Future/FutureBuilderJson.dart';
 import 'IconButtonWidget/FlatButtonExample.dart';
 import 'IconButtonWidget/ICButton.dart';
 import 'PageView/AnimatedIconExample.dart';
+import 'PlaceHolderEx/PlaceHolderEx.dart';
 import 'PositioningWidgets/AlignExample.dart';
 import 'PositioningWidgets/PositionWidgetEx.dart';
 
@@ -37,7 +38,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:SizedOverFlowBoxEx()
+      home: PlaceHolderEx()
+      //SizedOverFlowBoxEx()
       //OverFlowBoxEx()
       //LimitedBoxEx()
       //AspectRatioEx()
