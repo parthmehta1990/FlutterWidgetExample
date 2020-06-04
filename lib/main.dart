@@ -25,6 +25,7 @@ import 'PageView/AnimatedIconExample.dart';
 import 'PlaceHolderEx/PlaceHolderEx.dart';
 import 'PositioningWidgets/AlignExample.dart';
 import 'PositioningWidgets/PositionWidgetEx.dart';
+import 'TextWidgets/RichTextEx.dart';
 
 void main() => runApp(MyApp());
 
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: PlaceHolderEx()
+      home: RichTextEx()
+      //PlaceHolderEx()
       //SizedOverFlowBoxEx()
       //OverFlowBoxEx()
       //LimitedBoxEx()
