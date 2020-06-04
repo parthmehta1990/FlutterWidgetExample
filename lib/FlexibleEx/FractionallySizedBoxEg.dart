@@ -8,7 +8,20 @@ class FractionallySizedBoxEg extends StatelessWidget {
         child: FractionallySizedBox(
           heightFactor: .4,
           widthFactor: .5,
-          child: Container(height: 50.0, width: 50.0, color: Colors.red),
+          child: Container(
+            height: 50.0,
+            width: 50.0,
+            color: Colors.red,
+            child: SelectableText(
+              'Hello! How are you?',
+              textAlign: TextAlign.center,
+              showCursor: true,
+              onTap: (){
+                print("Tapped");
+              },
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+          ),
         ),
       ),
     );
