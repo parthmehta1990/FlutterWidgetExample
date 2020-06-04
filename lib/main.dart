@@ -13,6 +13,7 @@ import 'package:flutter_widget_app/WrapWidget.dart';
 
 import 'AspectRatioEx/AspectRatioEx.dart';
 import 'BottomNavigationWidget/BottomNavigation.dart';
+import 'Boxes/ConstraintBoxes.dart';
 import 'Boxes/LimitedBoxEx.dart';
 import 'Boxes/OverFlowBoxEx.dart';
 import 'Boxes/SizedOverFlowBoxEx.dart';
@@ -39,7 +40,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: RichTextEx()
+      home: ConstraintBoxes()
+      //RichTextEx()
       //PlaceHolderEx()
       //SizedOverFlowBoxEx()
       //OverFlowBoxEx()
