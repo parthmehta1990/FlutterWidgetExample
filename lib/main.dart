@@ -19,6 +19,7 @@ import 'Boxes/OverFlowBoxEx.dart';
 import 'Boxes/SizedOverFlowBoxEx.dart';
 import 'ClipRect/ClipReacWidget.dart';
 import 'FlexibleEx/FliexibleEx.dart';
+import 'FlexibleEx/FractionallySizedBoxEg.dart';
 import 'Future/FutureBuilderJson.dart';
 import 'IconButtonWidget/FlatButtonExample.dart';
 import 'IconButtonWidget/ICButton.dart';
@@ -40,7 +41,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ConstraintBoxes()
+      home: FractionallySizedBoxEg()
+      //ConstraintBoxes()
       //RichTextEx()
       //PlaceHolderEx()
       //SizedOverFlowBoxEx()
